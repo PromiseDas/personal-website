@@ -58,13 +58,49 @@ section{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    text-align: center; 
+    margin-top: 100px;
+    justify-content: center;
 }
-.work-area h1{
+.work{
+    margin-left: 250px;
+
+}
+.work1{
+    float: left;
+    width: 30%;
+    padding: 4px;
+}
+.work2{
+    float: left;
+    padding: 5px;
+    float: left;
+    width: 30%;
+}
+.work3{
+    float: left;
+    width: 30%;
+    padding: 4px;
+}
+.clients-comments{
     text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: none;
+    background-size: 100%;
+    margin-top: 30px;
+    height: 500px;
+    margin-bottom: 0px;
 }
-#one{
-    
+.clients-comments p{
+    color: dimgray;
 }
-footer{
+#message{
+    width: 361px;
+    height: 99px;
+    background-color: #ec4c7a ;
+    padding: 5px;
+    border-radius: 10px;
     text-align: center;
+    margin-left: 445px;
+    margin-top: 70px;
 }
