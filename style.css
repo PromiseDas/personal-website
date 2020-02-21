@@ -1,3 +1,70 @@
-p {
-    color: red;
+body{
+    font-family: 'Open Sans', sans-serif ;
+    margin: 0px;
+}
+p{
+    color: dimgray;
+}
+section{
+    height: 705px;
+}
+.top-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.intro{
+    width: 40%;
+    float: left;
+    margin-left: 240px;
+    padding: 60px;
+    margin-top: 105px;
+    position: absolute;
+    display: inline;
+}
+.intro img{
+    float: right;
+    margin-right: -372px;
+    margin-top: -65px;
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #ec4c7a ;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.name-highlight{
+    color:#ec4c7a;
+    font-size: 40px;
+}
+.bio-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.bio img{
+    width: 65%;
+}
+.bio{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 160px;
+    padding: 2%;
+}
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.work-area h1{
+    text-align: center;
+}
+#one{
+    
+}
+footer{
+    text-align: center;
 }
